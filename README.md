@@ -7,11 +7,12 @@ The objective of this project is to make it easy for malware analysts to prepare
 ## Requirements
 
 40 GB disk space (minimum)
+
 2GB RAM
 
 ## Installation Steps
 
-1. Download a Windows 10 VM from Microsoft:
+### 1. Download a Windows 10 VM from Microsoft:
 
 https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/
 
@@ -24,7 +25,7 @@ After downloading the file, import the 'ovf' file using your VMWare software.
 
 Remember to take a snapshot to have a fresh install version of your VM.
 
-2. Install the tools:
+### 2. Install the tools:
 
   - Download the 'install.ps1' script to your VM;
   - Open a Powershell with Admin privileges;
@@ -35,8 +36,15 @@ Remember to take a snapshot to have a fresh install version of your VM.
   - Execute the 'install.ps1' script:
     - .\install.ps1
 
+### 3. Disable Windows Defender
 
-
+  - Disable Real Time Protection and Tampering Protection of Windows Defender at:
+    	Start -> PC Settings -> Update and Security -> Windows Security -> Virus and Threat Protection -> Virus and Threat Protection Settings -> Manage Settings
+  - Open a cmd prompt with Admin privileges and execute:
+      - cd \users\IEUser\desktop\disabledefender
+      - disable-defencer.bat
+     
+  Reboot the VM and you should have the Windows Defender disabled.
 
   
 
