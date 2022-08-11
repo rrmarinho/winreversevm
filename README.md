@@ -42,7 +42,7 @@ Remember to take a snapshot to have a fresh install version of your VM.
 
 ### 3. Disable Windows Defender
 
-  - Disable Real Time Protection and Tampering Protection of Windows Defender at:
+  - Disable Real Time Protection and Tampering Protection (if available) of Windows Defender at:
   
     	Start -> PC Settings -> Update and Security -> Windows Security -> Virus and Threat Protection -> Virus and Threat Protection Settings -> Manage Settings
   
