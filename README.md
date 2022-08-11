@@ -56,6 +56,8 @@ Remember to take a snapshot to have a fresh install version of your VM.
 
 A screenshot of the Windows 10 VM after the installation.
 
+![image](https://user-images.githubusercontent.com/32780523/184223861-2f73ef87-2597-4f6b-a955-bb57a553cfaf.png)
+
 
 ## Disclaimer
 
