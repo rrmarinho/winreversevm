@@ -36,6 +36,8 @@ Remember to take a snapshot to have a fresh install version of your VM.
   - Execute the 'install.ps1' script:
     - .\install.ps1
 
+  The install process may take more or less time depending on the internet link. In general, the average installation time is approximately 1 hour.
+
 ### 3. Disable Windows Defender
 
   - Disable Real Time Protection and Tampering Protection of Windows Defender at:
@@ -45,6 +47,10 @@ Remember to take a snapshot to have a fresh install version of your VM.
       - disable-defencer.bat
      
   Reboot the VM and you should have the Windows Defender disabled.
+
+
+A screenshot of the Windows 10 VM after the installation.
+
 
   
 
