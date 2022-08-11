@@ -54,5 +54,13 @@ Remember to take a snapshot to have a fresh install version of your VM.
 A screenshot of the Windows 10 VM after the installation.
 
 
+## Disclaimer
+
+This download and configuration script is provided as is with the intent to help malware analysts to create a Windows 10 Lab. I take NO responsibility and/or liability for how you choose to use it. 
+
+Additionally, you as a user of this script must review, accept and comply with the license
+terms of each downloaded/installed packages.
+
+
   
 
