@@ -6,9 +6,9 @@ The project installs a curated list of reverse engeneering tools on a Windows 10
 
 # Installation
 
-## Requirements
+## Requirements (minimum)
 
-40 GB disk space (minimum)
+40 GB disk space 
 
 2GB RAM
 
