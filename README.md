@@ -32,7 +32,7 @@ Remember to take a snapshot to have a fresh install version of your VM.
   - Download the 'install.ps1' script to your VM;
   - Open a Powershell with Admin privileges;
   - Unblock the file using the command:
-    - `Unblock-FIle .\install.ps1`
+    - `Unblock-File .\install.ps1`
   - Disable Script Execution Policy:
     - `Set-ExecutionPolicy Unrestricted`
   - Execute the 'install.ps1' script:
