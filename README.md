@@ -30,11 +30,11 @@ Remember to take a snapshot to have a fresh install version of your VM.
   - Download the 'install.ps1' script to your VM;
   - Open a Powershell with Admin privileges;
   - Unblock the file using the command:
-    - Unblock-FIle .\install.ps1
+    - `Unblock-FIle .\install.ps1`
   - Disable Script Execution Policy:
-    - Set-ExecutionPolicy Unrestricted
+    - `Set-ExecutionPolicy Unrestricted`
   - Execute the 'install.ps1' script:
-    - .\install.ps1
+    - `.\install.ps1`
 
   The install process may take more or less time depending on the internet link. In general, the average installation time is approximately 1 hour.
 
@@ -43,8 +43,8 @@ Remember to take a snapshot to have a fresh install version of your VM.
   - Disable Real Time Protection and Tampering Protection of Windows Defender at:
     	Start -> PC Settings -> Update and Security -> Windows Security -> Virus and Threat Protection -> Virus and Threat Protection Settings -> Manage Settings
   - Open a cmd prompt with Admin privileges and execute:
-      - cd \users\IEUser\desktop\disabledefender
-      - disable-defencer.bat
+      - `cd \users\IEUser\desktop\disabledefender`
+      - `disable-defencer.bat`
      
   Reboot the VM and you should have the Windows Defender disabled.
 
