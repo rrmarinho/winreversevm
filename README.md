@@ -20,8 +20,8 @@ https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/
 
 On the VM Download website, choose:
 
-  Virtual Machines: MSEdge on Windows 10 (x64) Stable 1809
-  Choose a VM Platform: VMWare (Windows, Mac)
+  - Virtual Machines: MSEdge on Windows 10 (x64) Stable 1809
+  - Choose a VM Platform: VMWare (Windows, Mac)
 
 After downloading the file, import the 'ovf' file using your VMWare software.
 
