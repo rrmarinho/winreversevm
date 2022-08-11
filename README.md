@@ -1,6 +1,8 @@
 # Win Reverse VM
 
-The objective of this project is to make it easy for malware analysts to prepare a Windows 10 Virtual Machine with analysis tools. 
+The objective of this project is to make it easy to prepare a Windows 10 Virtual Machine for malware analysis. 
+
+The project installs a curated list of reverse engeneering tools on a Windows 10 VM provided by Microsoft for an evaluation period.
 
 # Installation
 
