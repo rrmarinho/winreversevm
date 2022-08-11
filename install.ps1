@@ -1,5 +1,5 @@
 # Purpose: install malware reverse tools on a Windows 10 VM
-# by Morphus Labs
+# by Renato Marinho
 
 If (-not (Test-Path "C:\ProgramData\chocolatey")) {
   [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
