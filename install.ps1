@@ -95,7 +95,7 @@ $ShortCut.IconLocation = "C:\ProgramData\chocolatey\bin\dnSpy.exe, 0";
 $ShortCut.Save()
 
 # Instalando modulos do Python
-$env:Path += ";c:\python310\scripts\;c:\python310\"
+$env:Path += ";c:\python311\scripts\;c:\python311\"
 python.exe -m pip install --upgrade pip
 pip install requests
 pip install netstruct
@@ -342,7 +342,8 @@ If(!(test-path $bintextRoot)) {
 
 }
 
-Invoke-WebRequest -UserAgent "Wget" -Uri "http://b2b-download.mcafee.com/products/tools/foundstone/bintext303.zip" -OutFile $bintextzip
+#Invoke-WebRequest -UserAgent "Wget" -Uri "http://b2b-download.mcafee.com/products/tools/foundstone/bintext303.zip" -OutFile $bintextzip
+Invoke-WebRequest -UserAgent "Wget" -Uri "https://github.com/mfput/McAfee-Tools/blob/master/bintext303.zip" -OutFile $bintextzip
 
 Expand-Archive -path "$bintextzip" -destinationpath "$bintextRoot" -Force
 
@@ -422,7 +423,7 @@ Expand-Archive -path "$norizip" -destinationpath "$noriRoot" -Force
 
 $Shortcut = $WScriptShell.CreateShortcut($ShortcutLocation + "\Noriben\Noriben.lnk")
 $Shortcut.TargetPath = "C:\Windows\System32\cmd.exe"
-$Shortcut.Arguments = "/k c:\python310\python.exe `"C:\Tools\Reverse\noriben\noriben-master\Noriben.py`""
+$Shortcut.Arguments = "/k c:\python311\python.exe `"C:\Tools\Reverse\noriben\noriben-master\Noriben.py`""
 $Shortcut.WorkingDirectory = "C:\users\IEUser\Desktop\Noriben\output"
 $Shortcut.Save()
 
