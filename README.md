@@ -39,6 +39,11 @@ Remember to take a snapshot to have a fresh install version of your VM.
     - `.\install.ps1`
 
   The install process may take more or less time depending on the internet link. In general, the average installation time is approximately 1 hour.
+  
+  OBS: if the screen below appears during the installation process, just click "Abort".
+  
+  ![image](https://user-images.githubusercontent.com/32780523/215539890-993c222a-7070-46f1-88e1-52d4ee614ba4.png)
+
 
 ### 3. Disable Windows Defender
 
