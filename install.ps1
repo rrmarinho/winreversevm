@@ -343,7 +343,7 @@ If(!(test-path $bintextRoot)) {
 }
 
 #Invoke-WebRequest -UserAgent "Wget" -Uri "http://b2b-download.mcafee.com/products/tools/foundstone/bintext303.zip" -OutFile $bintextzip
-Invoke-WebRequest -UserAgent "Wget" -Uri "https://github.com/mfput/McAfee-Tools/blob/master/bintext303.zip" -OutFile $bintextzip
+Invoke-WebRequest -UserAgent "Wget" -Uri "https://github.com/mfput/McAfee-Tools/raw/master/bintext303.zip" -OutFile $bintextzip
 
 Expand-Archive -path "$bintextzip" -destinationpath "$bintextRoot" -Force
 
