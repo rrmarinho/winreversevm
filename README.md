@@ -49,7 +49,7 @@ Remember to take a snapshot to have a fresh install version of your VM.
   - Open a cmd prompt with Admin privileges and execute:
   
       - `cd \users\IEUser\desktop\disabledefender`
-      - `.\disable-defencer.bat`
+      - `.\disable-defender.bat`
      
   Reboot the VM and you should have the Windows Defender disabled.
 
