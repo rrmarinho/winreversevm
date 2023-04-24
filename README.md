@@ -14,16 +14,11 @@ The project installs a curated list of reverse engeneering tools on a Windows 10
 
 ## Installation Steps
 
-### 1. Download a Windows 10 VM:
-
+### 1. Windows 10 VM:
+<!--
 https://mega.nz/#P!AgFaInMQClH1Q_y_8lCvRQKcneDOMpSKmCFhv6tJ47x3AH1OZMyGDcPchBsv7nrzxlbUg4h8HXJiXuZs9ePwqE5yV-MM-9VZM1F-BN6zngO7KSKes9CI03hRcSwtz5jFiVt7-LEa_XE
-
-On the VM Download website, choose:
-
-  - Virtual Machines: MSEdge on Windows 10 (x64) Stable 1809
-  - Choose a VM Platform: VMWare (Windows, Mac)
-
-After downloading the file, import the 'ovf' file using your VMWare software.
+-->
+Install a Windows 10 VM on your virtual machine environment. 
 
 Remember to take a snapshot to have a fresh install version of your VM.
 
