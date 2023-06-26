@@ -15,10 +15,12 @@ The project installs a curated list of reverse engeneering tools on a Windows 10
 ## Installation Steps
 
 ### 1. Windows 10 VM:
-<!--
+Download the Windows VM from:
 https://mega.nz/#P!AgFaInMQClH1Q_y_8lCvRQKcneDOMpSKmCFhv6tJ47x3AH1OZMyGDcPchBsv7nrzxlbUg4h8HXJiXuZs9ePwqE5yV-MM-9VZM1F-BN6zngO7KSKes9CI03hRcSwtz5jFiVt7-LEa_XE
--->
-Install a Windows 10 VM on your virtual machine environment. 
+
+After the download, import the VM to your virtual machine environment. 
+
+<!--Install a Windows 10 VM on your virtual machine environment. -->
 
 Remember to take a snapshot to have a fresh install version of your VM.
 
